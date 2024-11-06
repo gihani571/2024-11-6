@@ -1,11 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+
+
+
+        <div class="card" style="width: 18rem; background-color: rgb(145, 79, 207);">
+            <div class="card-body">
+                <h1 class="card-title">Add Customer</h1>
+                <label for="Id">Id</label>
+                <input type="text" id="txtId"><br><br>
+                <label for="Id">Name</label>
+                <input type="text" id="txtName"><br><br>
+                <label for="Id">Address</label>
+                <input type="text" id="txtAddress"><br><br>
+                <label for="Id">Age</label>
+                <input type="text" id="txtAge"><br><br>
+
+                <button id="btnAddCustomer" onclick="addCustomer()">Add Customer</button>
+
+            </div>
+        </div>
+
+
+        <div class="card" style="width: 18rem; background-color: rgb(145, 79, 207);">
+            <div class="card-body">
+                <h1 class="card-title">Add Items</h1>
+                <label for="Id">Item Code</label>
+                <input type="text" id="txtItemCode"><br><br>
+                <label for="Id">Description</label>
+                <input type="text" id="txtDescription"><br><br>
+                <label for="Id">Stock</label>
+                <input type="text" id="txtStock"><br><br>
+
+                <button id="btnAddItem" onclick="addItem()">Add Item</button>
+
+            </div>
+        </div>
+
+
+        <div class="card" style="width: 18rem; background-color: rgb(145, 79, 207);">
+            <div class="card-body">
+                <h1 class="card-title">Add Order</h1>
+                <label for="Id">Customer Id</label>
+                <input type="text" id="txtCustId"><br><br>
+                <label for="name">Customer Name</label>
+                <input type="text" id="txtCustName"><br><br>
+                <label for="Id">Item Code</label>
+                <input type="text" id="txtOredrId"><br><br>
+                <label for="Id">Qty</label>
+                <input type="text" id="txtQty"><br><br>
+                <label for="Id">Total</label>
+                <input type="text" id="txtTotal"><br><br>
+
+
+                <button id="btnAddOder" onclick="addOrder()">Add Order</button>
+
+            </div>
+        </div>
+
+
+
+ 
+
+
+
+    <script src="app.js"></script>
 </body>
+
 </html>
